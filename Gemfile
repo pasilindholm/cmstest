@@ -33,6 +33,7 @@ gem 'jquery-rails'
 
 # Deploy with Capistrano
 gem 'capistrano'
+gem 'highline'
 
 # To use debugger
 # gem 'debugger'
