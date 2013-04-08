@@ -1,6 +1,6 @@
 # config/deploy.rb
 # $:.unshift(File.expand_path('./lib', ENV['rvm_path'])) #
-# require 'rvm/capistrano'  # Add RVM integration
+require 'rvm/capistrano'  # Add RVM integration
 require 'bundler/capistrano'  # Add Bundler integration
 # load 'deploy/assets'  
 # only for rails 3.1 apps, this makes sure our assets are precompiled.
