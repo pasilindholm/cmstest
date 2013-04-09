@@ -35,5 +35,7 @@ gem 'jquery-rails'
 gem 'capistrano'
 gem 'highline'
 
+gem 'rvm-capistrano'
+
 # To use debugger
 # gem 'debugger'
