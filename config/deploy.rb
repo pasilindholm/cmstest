@@ -10,6 +10,8 @@ role :web, "54.228.151.235"  # Your HTTP server, Apache/etc
 role :app, "54.228.151.235"  # This may be the same as your `Web` server
 role :db,  "54.228.151.235", :primary => true  # This is where Rails migrations will run
 
+set :rvm_type, :system #  system wide (root) install
+
 set :scm, :git
 set :repository, "git@github.com:pasilindholm/cmstest.git"
 set :branch, "master"
