@@ -6,9 +6,9 @@ require 'bundler/capistrano'  # Add Bundler integration
 # only for rails 3.1 apps, this makes sure our assets are precompiled.
 
 set :application, "simple_cms"
-role :web, "54.228.148.31"  # Your HTTP server, Apache/etc
-role :app, "54.228.148.31"  # This may be the same as your `Web` server
-role :db,  "54.228.148.31", :primary => true  # This is where Rails migrations will run
+role :web, "54.228.96.5"  # Your HTTP server, Apache/etc
+role :app, "54.228.96.5"  # This may be the same as your `Web` server
+role :db,  "54.228.96.5", :primary => true  # This is where Rails migrations will run
 
 set :rvm_type, :system #  system wide (root) install
 
