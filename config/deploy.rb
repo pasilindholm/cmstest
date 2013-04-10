@@ -21,6 +21,6 @@ default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
 set :user, "deploy"
-set :deploy_to, "/var/www/#{application}"
+set :deploy_to, "/var/deploy/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
